@@ -12,7 +12,7 @@
         "tituloPricipal": "Vacunación COVID-19 en",
         "datosActualizados": "Datos actualizados",
         "fuente": "Fuente:",
-        "ministerioDeSanidad": "Ministerio de Sanidad",
+        "ministerioDeSanidad": "Secretaría de Salud",
         "mostrarReporteFecha": "Mostrar reporte a la fecha",
         "seleccionarFecha": "Seleccionar fecha",
         "descargarDatosJSON": "Descargar últimos datos en formato JSON",
@@ -24,11 +24,11 @@
         "poblacionVacunada": "% población vacunada",
         "pautaCompleta": "Pauta completa",
         "poblacionTotalmenteVacunada": "% población totalmente vacunada",
-        "evolucionDosisEntregadas": "Evolución de dosis entregadas",
+        "evolucionDosisEntregadas": "Evolución de dosis recibidas",
         "evolucionDosisAdministradas": "Evolución de dosis administradas",
         "fuenteDatosEnlacesInteres": "Fuentes de datos y enlaces de interés",
-        "fuente1": "Estrategia de Vacunación COVID-19 en España",
-        "fuente2": "Información oficial sobre la vacunación contra el nuevo coronavirus",
+        "fuente1": "Información oficial sobre el nuevo coronavirus",
+        "fuente2": "Estrategia de Vacunación COVID-19 en México",
         "changelog": "Changelog",
         "changelog5": "Añadidas gráficas",
         "changelog5.1": "y contribuidores",
@@ -36,7 +36,9 @@
         "changelog3": "Añadido modo oscuro a la app",
         "changelog2": "Añadida barra de progreso de vacunación en población",
         "changelog1": "Añadidas personas con pauta completa",
-        "changelog0": "Primera versión",
+        "changelog0": "Primera versión para México",
+        "developedBy" : "Desarrollador: Héctor Cabrera",
+        "githubLink" : "https://github.com/HectorCavilla/",
         "enLosMedios": "En los medios",
         "medio1": "Lanzan una web con datos del Gobierno que permite ver cómo avanza en España la vacunación contra el coronavirus (20 Minutos)",
         "medio2": "Web para revisar el estado y progreso de la vacunación del COVID-19 en España (Menéame)",
@@ -57,7 +59,43 @@
             "globoTerricola": "Globo terrícola con vistas a América",
             "jeringuilla": "Jeringuilla",
             "fuego": "Fuego"
-        }
+        },
+        "cards" : [
+            {
+                "id" : "dist",
+                "icono" : "/mapa.png",
+                "titulo" : "Dosis recibidas",
+                "alt": "Vacunas distribuidas en España",
+                "labs" : [
+                    {
+                        "nombre" : "Pfizer",
+                        "logo" : "/pfizer-logo.png",
+                        "alt" : "Pfizer Logo",
+                        "w" : 72,
+                        "h" : 29
+                    },
+                    {
+                        "nombre" : "Moderna",
+                        "logo" : "/moderna-logo.png",
+                        "alt" : "Moderna Logo",
+                        "w" : 72,
+                        "h" : 16.5
+                    }
+                ]
+            },
+            {
+                "id" : "admin",
+                "icono" : "/vacuna.png",
+                "titulo" : "Dosis administradas del día",
+                "alt": "Vacunas administradas en el día"
+            },
+            {
+                "id" : "pauta",
+                "icono" : "/vacunas-completas.png",
+                "titulo" : "TOTAL Dosis administradas",
+                "alt": "Total vacunas subministradas"
+            }
+        ]
     },
     "progress": {
         "verPoblacionVacunada": "Población vacunada",
@@ -70,7 +108,7 @@
         "dosisAdministradas": "Dosis administradas",
         "sobreDistribuidas": "% sobre distribuidas",
         "personasConPautaCompleta": "Personas con pauta completa",
-        "sobreAdministradas": "% sobre administradas"
+        "sobreAdministradas": "% sobre recibidas"
     },
     "share": {
         "textParamUrl": "¡Sigue el progreso de la vacunación contra el COVID19 en esta web creada por @midudev!\n\n",

@@ -6,20 +6,8 @@ import styles from 'styles/I18nWidget.module.css'
 
 const LOCALES = {
   es: {
-    name: 'Castellano',
-    zone: 'España'
-  },
-  ca: {
-    name: 'Català',
-    zone: 'Catalunya'
-  },
-  gl: {
-    name: 'Galego',
-    zone: 'Galicia'
-  },
-  eu: {
-    name: 'Euskara',
-    zone: 'Euskadi'
+    name: 'Español',
+    zone: 'México'
   }
 }
 

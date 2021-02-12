@@ -56,7 +56,43 @@
         "globoTerricola": "Globo terrestre con vistas a América",
         "jeringuilla": "Xiringa",
         "fuego": "Lume"
-      }
+      },
+      "cards": [
+        {
+          "id": "dist",
+          "icono": "/mapa.png",
+          "titulo": "Doses distribuídas",
+          "alt": "Vacinas distribuídas en España",
+          "labs": [
+            {
+              "nombre": "Pfizer",
+              "logo": "/pfizer-logo.png",
+              "alt": "Pfizer Logo",
+              "w": 72,
+              "h": 29
+            },
+            {
+              "nombre": "Moderna",
+              "logo": "/moderna-logo.png",
+              "alt": "Moderna Logo",
+              "w": 72,
+              "h": 16.5
+            }
+          ]
+        },
+        {
+          "id": "admin",
+          "icono": "/vacuna.png",
+          "titulo": "Dose administrada",
+          "alt": "Vacinas administradas en España"
+        },
+        {
+          "id": "pauta",
+          "icono": "/vacunas-completas.png",
+          "titulo": "Persoas con directrices completas",
+          "alt": "Administrar doses completas"
+        }
+      ]
     },
     "progress": {
       "verPoblacionVacunada": "Poboación vacinada",

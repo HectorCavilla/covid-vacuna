@@ -80,12 +80,7 @@ export default function normalizeChartData () {
 
 // fields to export to chart
 export const datasetFields = [
-  'dosisAdministradas',
-  'dosisEntregadas',
-  'dosisEntregadasModerna',
-  'dosisEntregadasPfizer',
-  'dosisPautaCompletada',
-  'porcentajeEntregadas',
-  'porcentajePoblacionAdministradas',
-  'porcentajePoblacionCompletas'
+  'avanceDiario',
+  'avanceAcumulado',
+  'dosisRecibidas'
 ]

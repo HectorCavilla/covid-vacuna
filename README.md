@@ -1,13 +1,12 @@
 # Vacunación COVID-19
-![Download latest COVID-19 Status vaccination](https://github.com/midudev/covid-vacuna/workflows/Download%20latest%20COVID-19%20Status%20vaccination/badge.svg)
 
-Aplicación web que muestra el estado y progreso de la vacunación en España 🇪🇸 contra el COVID-19.
+Aplicación web que muestra el estado y progreso de la vacunación en México contra el COVID-19.
 
 **Unos enlaces para entender mejor la app:**
 * [Anuncio en Twitter con toda la información.](https://twitter.com/midudev/status/1352231403136708611)
-* [Sígueme en Twitch para no perderte cuando sigamos desarrollando este y otras apps](https://www.twitch.tv/midudev)
+* [Sigue al creador en Twitch para no perderte cuando sigamos desarrollando este y otras apps](https://www.twitch.tv/midudev)
 
-## ¿Cómo lo ejecuto en local?
+## ¿Cómo ejecutarlo en local?
 
 Necesitarás tener instalado `Node.js` a partir de la versión 12 y tener acceso a una terminal para seguir los siguientes pasos:
 
@@ -18,11 +17,12 @@ npm run dev # levantar el entorno de desarrollo
 
 ## Forks para otros países
 
+- 🇪🇸 ES: https://covid-vacuna.app
 - 🇬🇧 UK: https://covid-vaccine.app
 - 🇨🇺 Cuba: https://covid-resume-cuba.kenriortega.vercel.app
 - 🇦🇷 Argentina: https://covid-vacuna-ar.vercel.app
 
-## ¿Aceptas Pull Request?
+## ¿Aceptas Pull Request? (Repo prinicipal)
 
 ¡Claro que sí! Lo cierto es que no puedo dedicarle mucho tiempo a la app así que cualquier ayuda es bienvenida.
 
@@ -38,9 +38,5 @@ En definitiva:
 
 ## Próximas características
 
-- [x] 🔹 Seleccionar días para ver el progreso
-- [x] 🔹 Modo oscuro
-- [x] 🔹 Gráfica con el progreso
 - [x] 🔹 PWA
 - [x] 🔹 Traducción a las lenguas oficiales del Estado
-- [x] 🔹 Mapa con info encima

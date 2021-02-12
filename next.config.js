@@ -24,7 +24,7 @@ module.exports = withPlugins([
 ], {
   i18n: {
     localeDetection: false,
-    locales: ['es', 'ca', 'gl', 'eu'],
+    locales: ['es'],
     defaultLocale: 'es'
   }
 })

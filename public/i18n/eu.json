@@ -56,7 +56,43 @@
         "globoTerricola": "Lurreko globoa Amerikara begira",
         "jeringuilla": "Xiringa",
         "fuego": "Sute"
-      }
+      },
+      "cards": [
+        {
+          "id": "dist",
+          "icono": "/mapa.png",
+          "titulo": "Banatutako dosiak",
+          "alt": "Espainian banatutako txertoak",
+          "labs": [
+            {
+              "nombre": "Pfizer",
+              "logo": "/pfizer-logo.png",
+              "alt": "Pfizer Logo",
+              "w": 72,
+              "h": 29
+            },
+            {
+              "nombre": "Moderna",
+              "logo": "/moderna-logo.png",
+              "alt": "Moderna Logo",
+              "w": 72,
+              "h": 16.5
+            }
+          ]
+        },
+        {
+          "id": "admin",
+          "icono": "/vacuna.png",
+          "titulo": "Administratutako dosia",
+          "alt": "Espainian ematen diren txertoak"
+        },
+        {
+          "id": "pauta",
+          "icono": "/vacunas-completas.png",
+          "titulo": "Jarraibide osoa duten pertsonak",
+          "alt": "Administratutako dosi osoak"
+        }
+      ]
     },
     "progress": {
       "verPoblacionVacunada": "Txertatutako populazioa",

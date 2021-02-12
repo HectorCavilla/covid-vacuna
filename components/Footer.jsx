@@ -20,10 +20,10 @@ export default function Footer () {
         <a href='https://midu.tube' rel='nofollow noreferrer' target='_blank'>YouTube</a>
         <span>&bull;</span>
         <a href='https://midu.live' rel='nofollow noreferrer' target='_blank'>Twitch</a>
-        <span>&bull;</span>
+        {/* <span>&bull;</span>
         <a href='https://app.usefathom.com/share/myexkunw/covid-vacuna.vercel.app' rel='nofollow noreferrer' target='_blank'>{translate.footer.estadisticas}</a>
         <span>&bull;</span>
-        <a href='https://github.com/midudev/covid-vacuna/issues/new' rel='nofollow noreferrer' target='_blank'>{translate.footer.enviarSugerencia}</a>
+        <a href='https://github.com/midudev/covid-vacuna/issues/new' rel='nofollow noreferrer' target='_blank'>{translate.footer.enviarSugerencia}</a> */}
       </div>
     </footer>
   )
