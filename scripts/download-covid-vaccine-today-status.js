@@ -38,7 +38,6 @@ const filename = `${year}${month}${day}.ods`
 transformOdsToJson(filename)
   .then((json) => {
     const jsonFileName = filename.replace('.ods', '.json')
-    console.log(jsonFileName)
     fs.writeJson(`./public/data/${jsonFileName}`, json)
     getNameReports()
     fs.writeJson('./public/data/latest.json', json)
