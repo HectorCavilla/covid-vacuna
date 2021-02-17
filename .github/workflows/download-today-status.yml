@@ -1,4 +1,4 @@
-name: Download latest COVID-19 Status vaccination
+name: Download latest COVID-19 Status vaccination in Mexico
 
 on:
   workflow_dispatch:
@@ -21,8 +21,8 @@ jobs:
     - run: npm install
     - run: npm run download-today-status
     - run: |
-        git config user.name HectorCavilla
-        git config user.email hector.cavilla@gmail.com
+        git config --global user.name "HectorCavilla"
+        git config --global user.email "hector.cavilla@gmail.com"
         git add .
         git commit -m "Add report for today"
         git push
