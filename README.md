@@ -1,4 +1,5 @@
 # Vacunación COVID-19
+![Download latest COVID-19 Status vaccination in Mexico](https://github.com/HectorCavilla/covid-vacuna/workflows/Download%20latest%20COVID-19%20Status%20vaccination%20in%20Mexico/badge.svg?event=push)
 
 Aplicación web que muestra el estado y progreso de la vacunación en México contra el COVID-19.
 
